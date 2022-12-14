@@ -613,11 +613,21 @@ a:hover {
 	flex-direction: column;
 	/* height:32rem */
 }
-/* @media only screen and (max-width: 431px){
-	.myself{
-		height: 30rem;
+@media only screen and (min-width:380px),(max-width: 768px){
+	.myimage{
+        height: 250px;
 	}
-} */
+}
+@media only screen and (min-width:340px),(max-width: 380px){
+	.myimage{
+        height: 160px;
+	}
+}
+@media only screen and (max-width:340px){
+	.myimage{
+        height: auto
+	}
+}
 .col_green{
 	color: #25d366;
 }
@@ -693,6 +703,19 @@ a:hover {
 	.grey{
 
 		width: 270px;
+	}
+}
+@media only screen and (max-width:380px){
+	.grey{
+        margin-top: 1.5rem;
+		margin-left: 30px;
+		width: 250px;
+	    height: 400px;
+	}
+	.black{
+		width: 250px;
+		height: 400px;
+
 	}
 }
 @media only screen and (max-width: 360px){

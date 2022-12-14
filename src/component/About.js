@@ -17,14 +17,14 @@ const About = () => {
           <div className="col-sm-12 col-md-6 col-lg-6 ">
             <div className=" d-flex justify-content-center align-items-center ">
                   <div className="col-md-10 col-lg-10 myself p-4 border_blck box_shwd">
-                    <img src="../../assets/images/laptop2.jpg" alt="" />
+                    <img className="myimage" src="../../assets/images/laptop2.jpg" alt="" />
                     <h4 className="light_white mt-3 text-dark">Hello, My name is</h4>
                     <h1 className="light_white text-dark">Vinayak koli</h1>
                     <p className="col_green fw_500">Front end developer</p>
                     <p className="light_white fw_500 text-dark">
                       I'm having total 4 years of work experiance. And one year of relevant
                       experiance in Reacts.js . My previous company
-                      was Trivent soft services.{" "}
+                      was Trivent soft services.
                     </p>
                   </div>
                 </div>
