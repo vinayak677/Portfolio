@@ -78,6 +78,15 @@ export default function Swipers() {
             ></img></a>
           </SwiperSlide>
         </Swiper>
+        <a
+        href="https://wa.me/91+9590821007/?text=Welcome to Techblog369 Team"
+        class="whatsapp_float"
+        target="_blank"
+        body="hello world"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
       </div>
     </>
   );
