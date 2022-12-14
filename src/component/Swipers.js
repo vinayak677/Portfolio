@@ -9,18 +9,9 @@ export default function Swipers() {
   return (
     <>
       <div className="black_back py-5">
-        <h2 className="d-flex justify-content-center text-white">Click on image to open the website </h2>
-        <h2 className="d-flex justify-content-center text-white">&</h2>
-        <h2 className="d-flex justify-content-center pb-5 text-white">slide for next image</h2>
-        {/* <Swiper
-        slidesPerView={3}
-        spaceBetween={30}
-        pagination={{
-          clickable: true,
-        }}
-        modules={[Pagination]}
-        className="mySwiper"
-      > */}
+        <h3 className="d-flex justify-content-center text-white">Click on image to open the website </h3>
+        <h3 className="d-flex justify-content-center text-white">&</h3>
+        <h3 className="d-flex justify-content-center pb-5 text-white">slide for next image</h3>
         <Swiper
           effect={"cards"}
           grabCursor={true}
