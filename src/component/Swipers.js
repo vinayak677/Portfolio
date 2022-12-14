@@ -79,7 +79,7 @@ export default function Swipers() {
           </SwiperSlide>
         </Swiper>
         <a
-        href="https://wa.me/91+9590821007/?text=Welcome to Techblog369 Team"
+        href="https://wa.me/91+9590821007/?text=Welcome to Hi, Vinayak"
         class="whatsapp_float"
         target="_blank"
         body="hello world"
