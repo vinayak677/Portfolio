@@ -611,13 +611,13 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	height:32rem
+	/* height:32rem */
 }
-@media only screen and (max-width: 431px){
+/* @media only screen and (max-width: 431px){
 	.myself{
 		height: 30rem;
 	}
-}
+} */
 .col_green{
 	color: #25d366;
 }
