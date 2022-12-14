@@ -15,7 +15,7 @@ const Footer = () => {
 
         </div>
 
-          <div className="col-8 d-flex justify-content-center" >
+          <div className="col-8 d-flex justify-content-center wow animate__animated animate__slideInDown" >
           <a href="https://www.linkedin.com/in/vinayak-koli-6b1a54227/">
           <img style={{width:"40px", height:"40px",margin:"20px"}} src=".././assets/images/linkedin.png" alt="" /></a>
           <a href="https://github.com/vinayak677">

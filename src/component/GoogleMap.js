@@ -1,4 +1,5 @@
 import React from "react";
+import Tech from "./Tech";
 
 const GoogleMap = () => {
   return (

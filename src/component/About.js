@@ -1,20 +1,21 @@
 import React from "react";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import Tech from "./Tech";
 
 const About = () => {
   return (
     <div >
       {/* <Navbar/> */}
       <div className=" container d-flex flex-column justify-content-center">
-        <div className="row mt-5">
-          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center ">
+        <div className="row mt-5 mb-4">
+          <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center mb-5">
             <div className="black">
-              <div className=" grey ">
+              <div className=" grey wow animate__animated animate__slideInLeft">
               </div>
             </div>
           </div>
-          <div className="col-sm-12 col-md-6 col-lg-6 ">
+          <div className="col-sm-12 col-md-6 col-lg-6 wow animate__animated  animate__slideInLeft">
             <div className=" d-flex justify-content-center align-items-center ">
                   <div className="col-md-10 col-lg-10 myself p-4 border_blck box_shwd">
                     <img className="myimage" src="../../assets/images/laptop2.jpg" alt="" />
@@ -40,7 +41,8 @@ const About = () => {
       >
         <i class="fa fa-whatsapp whatsapp-icon"></i>
       </a>
-      <div className="conatiner download mt-4 mb-2">
+      <Tech/>
+      <div className="conatiner download mt-4 mb-2  ">
         <div className="container">
         <div className=" row ">
           <div className="col-12 col-sm-6 col-md-5 col-lg-6 d-flex justift-content-center align-items-center">

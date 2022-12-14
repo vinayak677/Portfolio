@@ -1041,3 +1041,23 @@ i {
 		padding: 0;
 	}
 }
+.tech_image{
+	height: 350px;
+	width: 350px;
+}
+.bg_grey{
+	background: #354952;
+}
+@media screen and (max-width: 405px) {
+	.tech_image{
+		height: 300px;
+		width: 300px;
+	}
+}
+.p_hover{
+	color: #080808;
+}
+.p_hover:hover{
+   color: #0b12de;
+   
+}

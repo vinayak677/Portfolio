@@ -38,17 +38,17 @@ const Home = () => {
                       href="mailto:vinayakkoli067@gmail.com"
                       class="d-flex align-items-center mr-4"
                     >
-                      <span class="icon-envelope mr-2"></span>
-                      <span class="d-none d-md-inline-block">
+                      <span class="icon-envelope mr-2 wow animate__animated animate__slideInLeft"></span>
+                      <span class="d-none d-md-inline-block wow animate__animated animate__slideInLeft">
                         vinayakkoli067@gmail.com
                       </span>
                     </a>
                     <a
                       href="tel:+919590821007"
-                      class="d-flex align-items-center mr-auto"
+                      class="d-flex align-items-center mr-auto wow animate__animated animate__slideInLeft"
                     >
                       <span class="icon-phone mr-2"></span>
-                      <span class="d-none d-md-inline-block">
+                      <span class="d-none d-md-inline-block wow animate__animated animate__slideInLeft">
                         (+91) 9590821007
                       </span>
                     </a>

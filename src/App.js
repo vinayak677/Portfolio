@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./component/Navbar";
 import { useState } from "react";
 import Loader from "./component/Loader";
+import Tech from "./component/Tech";
 
 function App() {
   const [loading,setLoading]= useState(true)
@@ -24,7 +25,7 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />} ></Route>
             <Route path="/about" element={<About />} ></Route>
-            <Route path="/map" element={<GoogleMap />} ></Route>
+            <Route path="/Technologies" element={<Tech />} ></Route>
             <Route path="/project" element={<Swipers />} ></Route>
             </Routes>
             <Footer/>

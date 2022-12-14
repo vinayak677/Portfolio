@@ -21,7 +21,7 @@ export default function Swipers() {
         
           <SwiperSlide>  <a href="https://vencerpaints.com/">
             <img
-              className="w-100"
+              className="w-100 wow animate__animated  animate__fadeInRight"
               src=".././assets/images/vencer.png"
               alt=""
             ></img></a>
