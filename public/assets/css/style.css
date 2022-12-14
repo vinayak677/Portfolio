@@ -18,6 +18,21 @@ body {
 	background-position: center;
 	background-image: url('../images/code5.jpg');
 }
+@media screen and (max-width: 510px) {
+	.bg-image{
+     height: 80vh;
+	}
+}
+@media screen and (max-width: 430px) {
+	.bg-image{
+     height: 75vh;
+	}
+}
+@media screen and (max-width: 390px) {
+	.bg-image{
+     height: 70vh;
+	}
+}
 
 body:before {
 	content: "";
@@ -596,8 +611,12 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	/* align-items: center; */
-	/* margin-top: 10rem; */
+	height:32rem
+}
+@media only screen and (max-width: 431px){
+	.myself{
+		height: 30rem;
+	}
 }
 .col_green{
 	color: #25d366;
@@ -703,6 +722,8 @@ a:hover {
 	font-size: 30px;
 	box-shadow: 2px 2px 3px #999;
 	z-index: 100;
+	display: flex;
+	justify-content: end;
 }
 
 .whatsapp-icon {
