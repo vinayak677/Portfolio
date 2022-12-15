@@ -641,9 +641,6 @@ a:hover {
 	.whats_app{
      position: absolute;
 	}
-	body{
-		margin: 0;
-	}
 }
 
 .black{
@@ -705,7 +702,7 @@ a:hover {
 		width: 270px;
 	}
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:396px){
 	.grey{
         margin-top: 1.5rem;
 		margin-left: 30px;
@@ -1035,12 +1032,7 @@ i {
 	font-weight: 100;
 	letter-spacing: 10px;
   }
-  @media screen and (max-width: 580px) {
-	body{
-		margin: 0;
-		padding: 0;
-	}
-}
+
 .tech_image{
 	height: 350px;
 	width: 350px;
@@ -1048,7 +1040,7 @@ i {
 .bg_grey{
 	background: #354952;
 }
-@media screen and (max-width: 405px) {
+@media screen and  (max-width:396px){
 	.tech_image{
 		height: 300px;
 		width: 300px;
