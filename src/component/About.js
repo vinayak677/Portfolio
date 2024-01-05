@@ -23,9 +23,9 @@ const About = () => {
                     <h1 className="light_white text-dark">Vinayak koli</h1>
                     <p className="col_green fw_500">Front end developer</p>
                     <p className="light_white fw_500 text-dark">
-                      I'm having total 4 years of work experiance. And one year of relevant
+                      I'm having total 3 years of work experiance. And two years of relevant
                       experiance in Reacts.js . My previous company
-                      was Trivent soft services.
+                      was Alpha Obs llp.
                     </p>
                   </div>
                 </div>
@@ -51,7 +51,7 @@ const About = () => {
           <div className="col-12 col-sm-5 col-md-6 col-lg-6 mt-4">
            <h1 className="text_white mt-3 nam">Download My Resume</h1>
            <p className="mt-3 pdf">PDF:81.KB</p>
-           <h4><a className="text_white mt-3 dowm_btn" href=".././assets/PDF/VINAYAK KOLI.pdf">Download</a></h4>
+           <h4><a className="text_white mt-3 dowm_btn" href=".././assets/PDF/VINAYAK KOLI 2024.pdf" download="Vinyak koli 2024">Download</a></h4>
           </div>
         </div>
         </div>
