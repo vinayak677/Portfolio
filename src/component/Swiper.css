@@ -1,0 +1,107 @@
+/* Background */
+.black_back {
+  background: radial-gradient(
+    circle at top,
+    #1a1a1a,
+    #000000 60%
+  );
+  padding: 80px 0;
+}
+
+/* Title */
+.swiper-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.swiper-subtitle {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #bdbdbd;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Swiper container */
+.mySwiper {
+  width: 320px;
+  height: 420px;
+}
+
+/* Swiper card */
+.swiper-slide {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  background: #000;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Image styling */
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Hover effect */
+.swiper-slide:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 60px rgba(0, 224, 255, 0.4);
+}
+
+/* Anchor reset */
+.swiper-slide a {
+  display: block;
+  height: 100%;
+}
+
+/* WhatsApp floating button */
+.whatsapp_float {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: linear-gradient(135deg, #25d366, #1ebe5d);
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 32px;
+  box-shadow: 0 10px 30px rgba(37, 211, 102, 0.6);
+  z-index: 1000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp_float:hover {
+  transform: scale(1.15);
+  box-shadow: 0 15px 40px rgba(37, 211, 102, 0.9);
+}
+
+.whatsapp-icon {
+  margin-top: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .swiper-title {
+    font-size: 1.7rem;
+  }
+
+  .swiper-subtitle {
+    font-size: 1rem;
+  }
+
+  .mySwiper {
+    width: 280px;
+    height: 380px;
+  }
+}

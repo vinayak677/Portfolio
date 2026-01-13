@@ -1,0 +1,22 @@
+.hero-section {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  padding: 20px 0;
+  color: #fff;
+}
+
+.hero-left a,
+.hero-right a {
+  color: #fff;
+  margin-right: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero-left i,
+.hero-right i {
+  margin-right: 6px;
+}
+
+.hero-right a {
+  font-size: 20px;
+}

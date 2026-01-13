@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCards } from "swiper";
 import { Pagination } from "swiper";
 import { Link } from "react-router-dom";
+import "swiper/css";
 
 export default function Swipers() {
   return (
@@ -23,6 +24,13 @@ export default function Swipers() {
             <img
               className="w-100 wow animate__animated  animate__fadeInRight"
               src=".././assets/images/vencer.png"
+              alt=""
+            ></img></a>
+          </SwiperSlide>
+          <SwiperSlide><a href="https://www.astriadigital.ai/">
+            <img
+              className="w-100"
+              src=".././assets/images/astria.png"
               alt=""
             ></img></a>
           </SwiperSlide>
@@ -61,13 +69,7 @@ export default function Swipers() {
               alt=""
             ></img></a>
           </SwiperSlide>
-          <SwiperSlide><a href="https://airlinebooking.netlify.app/">
-            <img
-              className="w-100"
-              src=".././assets/images/airoplane.png"
-              alt=""
-            ></img></a>
-          </SwiperSlide>
+          
         </Swiper>
         <a
         href="https://wa.me/91+9590821007/?text=Welcome to Hi, Vinayak"

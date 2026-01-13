@@ -1,31 +1,64 @@
 import React from "react";
+import "./Tech.css";
+
+const technologies = [
+  "React.js",
+  "JavaScript",
+  "HTML5 / CSS3",
+  "Redux",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Ant Design",
+  "Context API",
+  "Git & GitHub",
+  "RESTful APIs",
+  "Webpack",
+  "ES6+",
+  "Responsive Design",
+  "Figma",
+  "VS Code",
+  "NPM/Yarn",
+  "lazy loading",
+  "React Router",
+  "Axios",
+  "Jira",
+  "State Management",
+  "Code Splitting",
+  "Unit Testing",
+];
+
 
 const Tech = () => {
   return (
-    <div className="bg_grey d-flex justify-content-center align-items-center align-content-md-center px-0">
-      <div className="container wow animate__animated animate__fadeIn">
-        <div className="row">
-          <div className="col-sm-11 col-md-6 col-lg-6 d-flex justify-content-center align-items-center px-0">
+    <section className="tech-section">
+      <div className="container">
+        <div className="row align-items-center">
+
+          {/* Image */}
+          <div className="col-md-6 text-center mb-4">
             <img
-              className="tech_image "
-              src=".././assets/images/technologies.svg"
+              src="../assets/images/technologies.svg"
+              alt="Technologies"
+              className="tech-image"
             />
           </div>
-          <div className="col-sm-11 col-md-4 col-lg-5 d-flex justify-content-center align-items-center flex-column mx-0 px-0 ">
-            <h1 className="text-white fw-bold p_hover">Technologies</h1>
-            <p className=" fw-bold p_hover">React.js</p>
-            <p className=" fw-bold p_hover">Tailwind CSS</p>
-            <p className=" fw-bold p_hover">HTML5,CSS3</p>
-            <p className=" fw-bold p_hover">Javascript</p>
-            <p className=" fw-bold p_hover">Boostrap</p>
-            <p className=" fw-bold p_hover">Redux</p>
-            <p className=" fw-bold p_hover">Antd</p>
 
+          {/* Tech List */}
+          <div className="col-md-6">
+            <h2 className="tech-title">Technologies</h2>
 
+            <div className="tech-list">
+              {technologies.map((tech) => (
+                <span key={tech} className="tech-badge">
+                  {tech}
+                </span>
+              ))}
+            </div>
           </div>
+
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
