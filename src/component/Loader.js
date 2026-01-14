@@ -1,13 +1,13 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 const Loader = () => {
   
   return (
     <div className="bg_black d-flex justify-content-center align-items-center load">
-      <div class="cssloader">
-        <div class="sh1"></div>
-        <div class="sh2"></div>
-        <h4 class="lt">loading</h4>
+      <div className="cssloader">
+        <div className="sh1"></div>
+        <div className="sh2"></div>
+        <h4 className="lt">loading</h4>
       </div>
     </div>
   );

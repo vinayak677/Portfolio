@@ -1,0 +1,77 @@
+.workstrip {
+  padding: 32px 0 10px;
+  background: radial-gradient(circle at top, #020617, #020617 60%);
+}
+
+.workstrip-head {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-bottom: 14px;
+  color: #e5e7eb;
+}
+
+.workstrip-pill {
+  display: inline-flex;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(56, 189, 248, 0.18);
+  color: #7dd3fc;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.workstrip-text {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin: 0;
+}
+
+.workstrip-scroll {
+  display: flex;
+  gap: 12px;
+  padding-bottom: 6px;
+}
+
+.workstrip-scroll::-webkit-scrollbar {
+  height: 6px;
+}
+
+.workstrip-scroll::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.5);
+  border-radius: 999px;
+}
+
+.workstrip-card {
+  border-radius: 16px;
+  overflow: hidden;
+  background: #020617;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  box-shadow: 0 14px 35px rgba(15, 23, 42, 0.8);
+}
+
+.workstrip-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.workstrip-card:hover img {
+  transform: scale(1.06);
+}
+
+@media (max-width: 575px) {
+  .workstrip-card {
+    /* width controlled by Swiper breakpoints */
+  }
+}
+
+.workstrip-swiper {
+  padding-bottom: 10px;
+}
+

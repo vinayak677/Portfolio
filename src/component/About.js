@@ -29,10 +29,12 @@ const About = () => {
               <h4 className="role">Frontend Developer (React.js)</h4>
 
               <p className="description">
-                I have <strong>4.9+ years</strong> of overall experience with
-                <strong> 3 years</strong> of hands-on expertise in React.js.
-                I specialize in building scalable, performant, and
-                user-friendly web applications.
+                Experienced React.js Developer with{" "}
+                <strong>4.9 years</strong> of expertise in building scalable,
+                high-performance web applications. I convert complex Figma
+                designs into reusable UI components, integrate REST APIs, and
+                focus on responsive, intuitive user experiences using modern
+                stacks like React.js, Tailwind CSS and Material-UI.
               </p>
 
               {/* STATS */}
