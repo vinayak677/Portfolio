@@ -18,7 +18,7 @@ const GoogleMap = () => {
       </div>
 
       {/* WhatsApp Button */}
-      <a
+      {/* <a
         href="https://wa.me/919590821007"
         className="whatsapp-float"
         target="_blank"
@@ -26,7 +26,7 @@ const GoogleMap = () => {
         aria-label="Chat on WhatsApp"
       >
         <i className="fa fa-whatsapp whatsapp-icon"></i>
-      </a>
+      </a> */}
 
     </section>
   );
