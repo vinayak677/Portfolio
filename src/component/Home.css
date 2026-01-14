@@ -1,3 +1,71 @@
+/* ===============================
+   HERO TOP BAR – ICON FIX
+================================ */
+.hero-topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.hero-topbar a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.hero-topbar a:hover {
+  color: #38bdf8;
+}
+
+/* Left: email & phone */
+.hero-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topbar-text {
+  margin-left: 6px;
+  font-size: 0.85rem;
+}
+
+/* Right: social icons */
+.hero-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.hero-topbar-right span {
+  font-size: 1.2rem;
+}
+
+/* ===============================
+   MOBILE – CLEAN ICON ROW
+================================ */
+@media (max-width: 575px) {
+  .hero-topbar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  /* Hide text, icons only */
+  .topbar-text {
+    display: none;
+  }
+
+  .hero-topbar-left,
+  .hero-topbar-right {
+    justify-content: center;
+  }
+
+  .hero-topbar-left span,
+  .hero-topbar-right span {
+    font-size: 1.4rem;
+  }
+}
+
+
 .hero-contact a {
   color: #ffffff;
   text-decoration: none;

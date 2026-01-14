@@ -14,53 +14,38 @@ const Home = () => {
         <div className="site-navbar-wrap">
           <div className="site-navbar-top">
             <div className="container py-3">
-              <div className="row align-items-center">
-                {/* Contact Info */}
-                <div className="col-md-6 col-12 mb-2 mb-md-0">
-                  <div className="d-flex hero-contact">
-                    <a
-                      href="mailto:vinayakkoli067@gmail.com"
-                      className="d-flex align-items-center me-4"
-                    >
-                      <span className="icon-envelope me-2"></span>
-                      <span className="d-none d-sm-inline-block">
-                        vinayakkoli067@gmail.com
-                      </span>
-                    </a>
+              <div className="hero-topbar">
+  <div className="hero-topbar-left">
+    <a href="mailto:vinayakkoli067@gmail.com">
+      <span className="icon-envelope"></span>
+      <span className="topbar-text">vinayakkoli067@gmail.com</span>
+    </a>
 
-                    <a
-                      href="tel:+919590821007"
-                      className="d-flex align-items-center"
-                    >
-                      <span className="icon-phone me-2"></span>
-                      <span className="d-none d-sm-inline-block">
-                        (+91) 9590821007
-                      </span>
-                    </a>
-                  </div>
-                </div>
+    <a href="tel:+919590821007">
+      <span className="icon-phone"></span>
+      <span className="topbar-text">(+91) 9590821007</span>
+    </a>
+  </div>
 
-                {/* Social Icons */}
-                <div className="col-md-6 col-12 text-md-end">
-                  <a
-                    href="https://www.linkedin.com/in/vinayak-koli-6b1a54227/"
-                    className="p-2 hero-social-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="icon-linkedin"></span>
-                  </a>
+  <div className="hero-topbar-right">
+    <a
+      href="https://www.linkedin.com/in/vinayak-koli-6b1a54227/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="icon-linkedin"></span>
+    </a>
 
-                  <a
-                    href="https://www.instagram.com/vinnie__46_/"
-                    className="p-2 hero-social-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <span className="icon-instagram"></span>
-                  </a>
-                </div>
-              </div>
+    <a
+      href="https://www.instagram.com/vinnie__46_/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span className="icon-instagram"></span>
+    </a>
+  </div>
+</div>
+
             </div>
           </div>
         </div>

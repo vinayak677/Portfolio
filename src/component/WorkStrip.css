@@ -1,19 +1,48 @@
+.workstrip-swiper {
+  width: 100%;
+}
+
+.workstrip-slide {
+  width: 110px !important;
+}
+
+.workstrip-card {
+  height: 260px;
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    180deg,
+    rgba(56, 189, 248, 0.35),
+    rgba(15, 23, 42, 0.85)
+  );
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.9);
+}
+
+.workstrip-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+
 .workstrip {
   padding: 32px 0 10px;
   background: radial-gradient(circle at top, #020617, #020617 60%);
 }
 
 .workstrip-head {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
-  align-items: flex-start;
   gap: 6px;
   margin-bottom: 14px;
   color: #e5e7eb;
 }
 
 .workstrip-pill {
-  display: inline-flex;
   padding: 4px 10px;
   border-radius: 999px;
   background: rgba(56, 189, 248, 0.18);
@@ -26,28 +55,21 @@
 .workstrip-text {
   font-size: 0.9rem;
   color: #cbd5e1;
-  margin: 0;
 }
 
-.workstrip-scroll {
-  display: flex;
-  gap: 12px;
-  padding-bottom: 6px;
+.workstrip-swiper {
+  width: 100%;
 }
 
-.workstrip-scroll::-webkit-scrollbar {
-  height: 6px;
-}
-
-.workstrip-scroll::-webkit-scrollbar-thumb {
-  background: rgba(148, 163, 184, 0.5);
-  border-radius: 999px;
+.workstrip-slide {
+  width: 90px !important;
 }
 
 .workstrip-card {
+  width: 90px;
+  height: 90px;
   border-radius: 16px;
   overflow: hidden;
-  background: #020617;
   border: 1px solid rgba(148, 163, 184, 0.4);
   box-shadow: 0 14px 35px rgba(15, 23, 42, 0.8);
 }
@@ -56,22 +78,9 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-  display: block;
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
+  transition: transform 0.4s ease;
 }
 
 .workstrip-card:hover img {
-  transform: scale(1.06);
+  transform: scale(1.08);
 }
-
-@media (max-width: 575px) {
-  .workstrip-card {
-    /* width controlled by Swiper breakpoints */
-  }
-}
-
-.workstrip-swiper {
-  padding-bottom: 10px;
-}
-
