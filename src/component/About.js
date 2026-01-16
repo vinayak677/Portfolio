@@ -30,8 +30,8 @@ const About = () => {
 
               <p className="description">
                 Experienced React.js Developer with{" "}
-                <strong>4.9 years</strong> of expertise in building scalable,
-                high-performance web applications. I convert complex Figma
+                <strong>3 years</strong> of expertise in building scalable,
+                high-performance web applications And overall is <strong>4.9 years</strong> I convert complex Figma
                 designs into reusable UI components, integrate REST APIs, and
                 focus on responsive, intuitive user experiences using modern
                 stacks like React.js, Tailwind CSS and Material-UI.
