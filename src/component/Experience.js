@@ -11,7 +11,7 @@ const experiences = [
       "Refactored and optimized existing code to improve performance and maintainability.",
       "Ensured responsive layouts and consistent design using Material-UI.",
     ],
-    stack: ["React.js", "TypeScript", "Material-UI", "REST APIs", "Git"],
+    stack: ["React.js", "JavaScript", "Material-UI", "REST APIs", "Git"],
   },
   {
     title: "React.js Developer",
@@ -24,7 +24,7 @@ const experiences = [
     ],
     stack: [
       "React.js",
-      "TypeScript",
+      "JavaScript",
       "Material-UI",
       "Redux / State Management",
       "REST APIs",
