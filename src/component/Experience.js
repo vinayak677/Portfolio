@@ -58,7 +58,11 @@ const experiences = [
       "Worked as a Software Engineer on engineering-focused projects, collaborating with cross-functional teams.",
       "Contributed to delivering reliable solutions while gradually transitioning towards front-end development.",
     ],
-    stack: ["JavaScript", "Problem Solving", "Collaboration"],
+    stack: [ "React.js",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",]
   },
 ];
 
