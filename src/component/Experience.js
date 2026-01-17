@@ -64,7 +64,7 @@ const experiences = [
 
 const quickWins = [
   { label: "Experience", value: "4.9+ yrs" },
-  { label: "Projects", value: "15+" },
+  { label: "Projects", value: "10+" },
   { label: "Focus", value: "React UI" },
   { label: "Strength", value: "Performance" },
 ];
