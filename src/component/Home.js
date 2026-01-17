@@ -4,8 +4,34 @@ import GoogleMap from "./GoogleMap";
 import Swipers from "./Swipers";
 import WorkStrip from "./WorkStrip";
 import "./Home.css";
+import Loader from "./Loader";
+import CircularProgress from "@mui/material/CircularProgress";
+import Box from "@mui/material/Box";
+
 
 const Home = () => {
+  const [loading, setLoading] = React.useState(true);
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, []);
+
+  const MuiLoader = () => (
+  <Box
+    sx={{
+      height: "200px",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center",
+    }}
+  >
+    <CircularProgress />
+  </Box>
+);
+
+
   return (
     <>
       {/* Hero Section */}
@@ -15,37 +41,38 @@ const Home = () => {
           <div className="site-navbar-top">
             <div className="container py-3">
               <div className="hero-topbar">
-  <div className="hero-topbar-left">
-    <a href="mailto:vinayakkoli067@gmail.com">
-      <span className="icon-envelope"></span>
-      <span className="topbar-text">vinayakkoli067@gmail.com</span>
-    </a>
+                <div className="hero-topbar-left">
+                  <a href="mailto:vinayakkoli067@gmail.com">
+                    <span className="icon-envelope"></span>
+                    <span className="topbar-text">
+                      vinayakkoli067@gmail.com
+                    </span>
+                  </a>
 
-    <a href="tel:+919590821007">
-      <span className="icon-phone"></span>
-      <span className="topbar-text">(+91) 9590821007</span>
-    </a>
-  </div>
+                  <a href="tel:+919590821007">
+                    <span className="icon-phone"></span>
+                    <span className="topbar-text">(+91) 9590821007</span>
+                  </a>
+                </div>
 
-  <div className="hero-topbar-right">
-    <a
-      href="https://www.linkedin.com/in/vinayak-koli-6b1a54227/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <span className="icon-linkedin"></span>
-    </a>
+                <div className="hero-topbar-right">
+                  <a
+                    href="https://www.linkedin.com/in/vinayak-koli-6b1a54227/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="icon-linkedin"></span>
+                  </a>
 
-    <a
-      href="https://www.instagram.com/vinnie__46_/"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <span className="icon-instagram"></span>
-    </a>
-  </div>
-</div>
-
+                  <a
+                    href="https://www.instagram.com/vinnie__46_/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span className="icon-instagram"></span>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -56,7 +83,9 @@ const Home = () => {
             <div className="row align-items-center h-100">
               <div className="col-lg-7 col-md-7 mb-4 mb-md-0">
                 <div className="hero-content">
-                  <span className="hero-badge">Frontend Developer • React.js</span>
+                  <span className="hero-badge">
+                    Frontend Developer • React.js
+                  </span>
                   <h1 className="hero-title">Hi, I&apos;m Vinayak Koli</h1>
                   <p className="hero-subtitle">
                     I craft fast, responsive and modern web experiences using
@@ -71,7 +100,10 @@ const Home = () => {
                     >
                       View Resume
                     </a>
-                    <a href="#projects" className="btn-outline hero-btn-outline">
+                    <a
+                      href="#projects"
+                      className="btn-outline hero-btn-outline"
+                    >
                       View Projects
                     </a>
                   </div>
@@ -94,7 +126,7 @@ const Home = () => {
       </div>
 
       {/* Work snapshots strip */}
-      <WorkStrip />
+      {loading ? <MuiLoader /> : <WorkStrip />}
 
       {/* Page Sections */}
       <About />
