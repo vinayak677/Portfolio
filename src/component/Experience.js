@@ -15,8 +15,27 @@ const experiences = [
   },
   {
     title: "React.js Developer",
-    company: "Alpha OBS LLP | Pune",
+    company: "Astria Digital Pvt. Ltd | Bangalore",
     period: "Feb 2024 – Dec 2024",
+    highlights: [
+      "Converted complex Figma UI designs into clean, reusable React components.",
+      "Integrated REST APIs and handled client-side data flows and UI states.",
+      "Implemented responsive layouts using HTML5, CSS3, Bootstrap and React.js.",
+    ],
+    stack: [
+      "React.js",
+      "JavaScript (ES6+)",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+      "REST APIs",
+      "git",
+    ],
+  },
+  {
+    title: "React.js Developer",
+    company: "Alpha OBS LLP | Pune",
+    period: "Jan 2023 – Jul 2023",
     highlights: [
       "Collaborated on a logistics & CRM CMS for All My Sons Moving and Storage (branches, vehicles, payments, discounts).",
       "Worked on Spio C Pass, a centralized platform aggregating reviews from Google Maps, Instagram, Facebook and YouTube.",
@@ -31,25 +50,7 @@ const experiences = [
       "AWS CodeCommit",
     ],
   },
-  {
-    title: "React.js Developer",
-    company: "Astria Digital Pvt. Ltd | Bangalore",
-    period: "Jan 2023 – Jul 2023",
-    highlights: [
-      "Converted complex Figma UI designs into clean, reusable React components.",
-      "Integrated REST APIs and handled client-side data flows and UI states.",
-      "Implemented responsive layouts using HTML5, CSS3, Bootstrap and React.js.",
-    ],
-    stack: [
-      "React.js",
-      "JavaScript (ES6+)",
-      "HTML5",
-      "CSS3",
-      "Bootstrap",
-      "REST APIs",
-      "AWS CodeCommit",
-    ],
-  },
+  
   {
     title: "Software Engineer",
     company: "Axis Cades | Bangalore",
